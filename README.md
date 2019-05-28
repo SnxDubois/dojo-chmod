@@ -14,9 +14,9 @@ Chaque chiffre de la chaîne se décompose en nombre binaire :
 Ex: 001 100 010
 ```
 
-Chaque nombre binaire est ensuite associé aux droits correspondant : read (r), write (w), execution (x).
+Chaque nombre binaire est ensuite associé au droit correspondant : read (r), write (w), execute (x).
 
-Une lettre est associée au 1, et un tiret au 0. Les caractères soit ensuite concaténés ensembles.
+Une lettre est associée au 1, et un tiret au 0. Les caractères sont ensuite concaténés.
 
 ```
 Droits:   rwxrwxrwx
