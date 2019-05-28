@@ -1,29 +1,35 @@
 # Chmod
 
-Vous avez en entrée une chaîne de caractère composées de 3 chiffres compris entre 1 et 7.
-Vous devez définir quelles sont les autorisations accordées en fonction.
+Vous avez en entrée une chaîne de caractères composée de 3 chiffres, chacun compris entre 1 et 7.
+
+Vous devez définir quelles sont les autorisations accordées, en fonction de l'entrée.
 
 ```
-Ex: 145
+Ex: 142
 ```
 
-Chaque chiffre composant la chaîne nombre se décompose ensuite en binaire :
+Chaque chiffre de la chaîne se décompose en nombre binaire :
 
 ```
-Ex: 001 010 101
+Ex: 001 100 010
 ```
 
-À chaque groupe de trois chiffre binaire est associée la suite de droit correspondant : read (r), write (w), execution (x).
-On associe la lettre si c'est un 1, et un tiret si c'est 0. On colle ensuite tous les caractères ensemble.
+Chaque nombre binaire est ensuite associé aux droits correspondant : read (r), write (w), execution (x).
 
-Ex: --x-wr-x
+Une lettre est associée au 1, et un tiret au 0. Les caractères soit ensuite concaténés ensembles.
+
+```
+Droits:   rwxrwxrwx
+Binaire:  001100010
+Résultat: --xr---w-
+```
 
 * [chmod by the Numbers](https://catcode.com/teachmod/numeric.html)
 
 ```
 Ex:
     Entrée : 000, Sortie : ---------
-    Entrée : 124, Sortie : --x-w-r--
+    Entrée : 352, Sortie : -wxr-x-w-
     Entrée : 777, Sortie : rwxrwxrwx
 ```
 
