@@ -1,6 +1,6 @@
 # Chmod
 
-Vous avez en entrée une chaîne de caractères composée de 3 chiffres, chacun compris entre 1 et 7.
+Vous avez en entrée une chaîne de caractères composée de 3 chiffres, chacun compris entre 0 et 7.
 
 Vous devez définir quelles sont les autorisations accordées, en fonction de l'entrée.
 
