@@ -24,14 +24,17 @@ Binaire:  001100010
 Résultat: --xr---w-
 ```
 
-* [chmod by the Numbers](https://catcode.com/teachmod/numeric.html)
-
 ```
 Ex:
     Entrée : 000, Sortie : ---------
     Entrée : 352, Sortie : -wxr-x-w-
     Entrée : 777, Sortie : rwxrwxrwx
 ```
+
+### Ressources
+
+* [chmod by the Numbers](https://catcode.com/teachmod/numeric.html)
+* [Conversion du décimal en binaire : les divisions euclidiennes par 2](https://lehollandaisvolant.net/tuto/bin/#db2)
 
 Rappel des commandes junit :
 
